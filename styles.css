@@ -1801,7 +1801,7 @@ font-size: 13px;
  }  
 
   .circle-marcos, .circle-adm, .circle-agro, .circle-cont, .circle-dep, .circle-inf {  
-    margin-left: 25px;
+    margin-left: -25px;
   }
 
 } 
