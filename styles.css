@@ -271,10 +271,18 @@ margin-left: -170px;
       font-size: 18px;
       margin-left: 20px;
     }
-  
+
+  .logo3 {
+    display: none;
+  }
 }
 
- 
+ @media (max-width: 1024px) {
+.logo3 {
+    display: none;
+  }
+}
+
 
 /*------------------------------------------------------------------
     Esqueleto
@@ -840,7 +848,7 @@ padding-bottom: 1px;
 
 
 .h1-ubicacion{
-  margin-left: 130px;
+  margin-left: 42px;
   margin-top: 100px;
   font-size: 22px;
 }
@@ -892,7 +900,7 @@ align-items: center;
 
 
 .ImgFases-d {
-  margin-left: 90px !important;
+  margin-left: 61px !important;
   margin-top: 3% !important;
   width: 70% !important;
   height: 30% !important;
@@ -944,11 +952,13 @@ align-items: center;
 
 
 
+.h2-deporte, .h2-informatica, .h2-administracion, .h2-agroalimentacion{
+  margin-top: 34px;
+}
 
-/* DEPORTE, INFORMÁTICA, ADMINISTRACIÓN  & AGRO*/
 .h3-deporte, .h3-informatica, .h3-administracion, .h3-agroalimentacion{
   margin-left: 77px;
-  margin-top: 100px;
+  margin-top: 40px;
   font-size: 20px;
 }
 
@@ -968,11 +978,17 @@ align-items: center;
   }
 
 
+.h2-agro{
+  margin-top: 20px;
+}
 
-/* CONTADURÍA PÚBLICA */
+.h2-contaduria{
+  margin-top: 20px;
+}
+
 .h3-contaduria{
-  margin-left: 85px;
-  margin-top: 100px;
+  margin-left: 76px;
+  margin-top: 50px;
   font-size: 20px;
 }
   
@@ -1005,7 +1021,7 @@ margin-top: -1px ;
 }
 
 .ImgFases-c{
-  margin-left: 50px !important;
+  margin-left: 29px !important;
   margin-top: 3% !important;
   width: 80% !important;
   height: 30% !important;
@@ -1014,6 +1030,7 @@ margin-top: -1px ;
 
  .perfil-egresado-content p{
 font-size: 15px;
+margin-top: -14px;
 margin-left: 70px;
 
 }
@@ -1036,7 +1053,7 @@ align-items: center;
    width: 40% ;
 }
 .h3-deporte2{
-  margin-left: 225px !important;
+  margin-left: 213px !important;
   margin-top: 100px !important;
   }
 
@@ -1051,15 +1068,6 @@ align-items: center;
 
 
 
-
-
-
-
-
-
-
-
-
 @media (min-width: 768px) and (max-width: 1024px) {
 
 .imgcev-d{
@@ -1069,7 +1077,8 @@ align-items: center;
 }
 
 .h3-contaduria, .h3-informatica , .h3-administracion, .h3-agroalimentacion  {
-  margin-left: 230px;
+  margin-left: 248px;
+  margin-top: 34px;
 }
 
 .h3-contaduria2, .h3-informatica2 , .h3-administracion2, .h3-agroalimentacion2 {
@@ -1090,8 +1099,8 @@ align-items: center;
    }
 
 .h3-deporte{
-  margin-left: 280px;
-  margin-top: 100px;
+  margin-left: 252px;
+  margin-top: 64px;
   font-size: 20px;
 }
 
@@ -1135,9 +1144,16 @@ align-items: center;
 }
 
 
+.nosotros-content p {
+  margin-top: -140px;
+}
+
+.h2-deporte, .h2-agro, .h2-contaduria, .h2-informatica, .h2-administracion {
+  margin-top: 18px;
+}
 
 .h1-ubicacion{
-   margin-left: 344px;
+  margin-left: 245px;
   margin-top: 100px;
   font-size: 25px;
 }
@@ -1428,7 +1444,9 @@ margin-left: 90px;
  .col h3, .col p{  
  margin-left:200px; /* Quitar el margen */  
  margin-top: 10px;
- }  
+ } 
+
+ 
 }  
 
 
@@ -1476,14 +1494,14 @@ margin-left: 90px;
 
 .desarrolladores1{
   margin-left: -105px;
-    margin-top: -15px;
+    margin-top: -14px;
 }
 
 .desarrolladores2{
   position:absolute;
   text-align: left;
   margin-left: 65px;
-  margin-top: -66px
+  margin-top: -65px
 }
 
 .desarrolladores3{
@@ -1537,24 +1555,40 @@ margin-left: 90px;
  margin-left:0; /* Quitar margen */  
  } 
 
- .tutor h3{
-margin-top: -240px;
-margin-left: 110px;
- }
+.desarrolladores{
+  margin-left: 21px !important;
+  margin-top: -35px !important;
+}
 
- .tutor p{
-margin-top: 10px;
-margin-left: 110px;
- }
 
- .devs h3{
-margin-left: -120px;
- }
+.desarrolladores1{
+  margin-left: -138px;
+    margin-top: -15px;
+}
 
- .devs p{
-margin-left: -120px;
- }
+.desarrolladores2{
+  position:absolute;
+  text-align: left;
+  margin-left: 184px;
+  margin-top: -99px
+}
 
+.desarrolladores3{
+  position:absolute;
+  margin-left: 109px;
+  margin-top: -22px;
+}
+
+
+.tutora{
+  margin-left: -25px;
+  margin-top: -161px;
+}
+
+.tutora2{
+  margin-left: -24px;
+  margin-top: -15px;
+}
 
 
 }
@@ -1793,8 +1827,7 @@ font-size: 13px;
 
 @media (max-width:600px) {  
  .container-contact {
- margin-top:10%;  
- display: flex;
+  display: flex;
  flex-direction: column;
  align-items: center;
 }  
@@ -1815,15 +1848,15 @@ font-size: 13px;
     margin-left: 26px!important;
   }
 
+  .box{
+    margin-top: -36px;
+  }
+
 } 
 
 
 
 @media (min-width: 768px) and (max-width: 1024px) {  
-  .container-contact {  
-    margin-top: 5%;
-  }  
-
   .row {  
     flex-direction: row;
     flex-wrap: wrap;
@@ -1855,4 +1888,13 @@ font-size: 13px;
     width: auto;
     max-width: 100%;
   }  
+
+    .box{
+    margin-top: -36px;
+    margin-left: 27px;
+  }
+
+  .box h2 {
+    margin-left: 18px;
+  }
 }
