@@ -1431,17 +1431,15 @@ margin-left: 90px;
 /* Estilos para pantallas menores a599px */  
 @media (max-width:599px) {  
  .footerlogo {  
-  display: none;  
- width:50%; /* Hacer la imagen más grande */  
- margin-left:30px; /* Quitar margen */  
- margin-top: -300px;
+ width:38%; /* Hacer la imagen más grande */  
+ margin-left:-145px; /* Quitar margen */  
+ margin-top: 84px;
  }  
 
  .footerlogo2 {  
-  display: none;  
- width:30%; /* Hacer la segunda imagen más grande */  
- margin-top: -290px; /* Cambiar el margen superior */  
- margin-left: 100px; /* Quitar margen */  
+ width:22%; /* Hacer la segunda imagen más grande */  
+ margin-top: 51px; /* Cambiar el margen superior */  
+ margin-left: 218px; /* Quitar margen */  
  }  
 
  .row {  
@@ -1462,25 +1460,48 @@ margin-left: 90px;
  margin-top: 10px;
  }  
 
- .tutor h3{
-margin-top: -300px;
-margin-left: 220px;
- }
+ 
 
- .tutor p{
-margin-top: 10px;
-margin-left: 220px;
- }
+.desarrolladores{
+  margin-left: -29px !important;
+  margin-top: -35px !important;
+}
 
- .devs h3{
-margin-left: -120px;
- }
 
- .devs p{
-margin-left: -120px;
- }
+.desarrolladores1{
+  margin-left: -105px;
+    margin-top: -15px;
+}
+
+.desarrolladores2{
+  position:absolute;
+  text-align: left;
+  margin-left: 65px;
+  margin-top: -66px
+}
+
+.desarrolladores3{
+  position:absolute;
+  margin-left: 5px;
+  margin-top: -20px;
+}
+
+
+.tutora{
+  margin-left: -25px;
+  margin-top: -270px;
+}
+
+.tutora2{
+  margin-left: -24px;
+  margin-top: -15px;
+}
+
 
 }  
+
+
+
 
 /* Estilos para pantallas entre600px y900px */  
 @media (min-width:600px) and (max-width:900px) {  
@@ -1527,6 +1548,8 @@ margin-left: -120px;
  .devs p{
 margin-left: -120px;
  }
+
+
 
 }
 
